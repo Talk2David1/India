@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: purple;
+    }
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 7px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    transition: 0.5s ease;
+    border: transparent;
+}
+
+
+ul li a:hover {
+    background-color: rgb(226, 179, 179);
+    color: black;
+}
+
+ul li a:active {
+    background-color: white;
+    color: black;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 7px 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(226, 179, 179);
+    color: black;
+}
